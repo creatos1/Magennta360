@@ -10,15 +10,7 @@
       ]
     }
   ],
-  "functions": {
-    "dist/server/index.mjs": {
-      "runtime": "nodejs24.x"
-    }
-  },
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/dist/server/index.mjs"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
